@@ -1,0 +1,274 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "19-337C_RSBHGHC-A88_4T" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -7.6708 15.1638 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "19-337C_RSBHGHC-A88_4T" (id 1) (at -7.62 -15.24 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "19-337C_RSBHGHC-A88_4T:LED_19-337C_RSBHGHC-A88_4T" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Everlight Electronics Co Ltd" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "0606 Everlight Electronics Co Ltd" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/19-337C/RSBHGHC-A88/4T/Everlight+Electronics+Co+Ltd/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "2" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/19-337C/RSBHGHC-A88/4T/Everlight+Electronics+Co+Ltd/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "19-337C/RSBHGHC-A88/4T" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\nRed, Green, Blue (RGB) 625nm Red, 530nm Green, 470nm Blue LED Indication - Discrete 2.05V Red, 2.9V Green, 2.9V Blue 0606 (1616 Metric)\n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Everlight" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "19-337C_RSBHGHC-A88_4T_0_0"
+      (polyline
+        (pts (xy -2.54 8.636) (xy 0.0 10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 10.16) (xy -2.54 11.684)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 11.684) (xy 0.0 8.636)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 10.16) (xy -5.08 10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.016 14.224) (xy -0.762 12.192)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.6858 13.2588) (xy 0.127 13.7414)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.127 13.7414) (xy 1.016 14.224)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.016 14.224) (xy 0.6858 13.2588)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.6858 13.2588) (xy 0.7112 13.9954)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.7112 13.9954) (xy 0.5842 13.9954)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.3048 13.6652) (xy 0.5334 13.8176)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.2286 14.3256) (xy -2.0066 12.2936)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5588 13.3604) (xy -1.1176 13.843)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.1176 13.843) (xy -0.2286 14.3256)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.2286 14.3256) (xy -0.5588 13.3604)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5588 13.3604) (xy -0.5334 14.097)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5334 14.097) (xy -0.6604 14.097)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.9398 13.7668) (xy -0.7112 13.9192)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -1.524) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy -2.54 1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.524) (xy 0.0 -1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.016 4.064) (xy -0.762 2.032)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.6858 3.0988) (xy 0.127 3.5814)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.127 3.5814) (xy 1.016 4.064)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.016 4.064) (xy 0.6858 3.0988)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.6858 3.0988) (xy 0.7112 3.8354)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.7112 3.8354) (xy 0.5842 3.8354)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.3048 3.5052) (xy 0.5334 3.6576)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.2286 4.1656) (xy -2.0066 2.1336)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5588 3.2004) (xy -1.1176 3.683)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.1176 3.683) (xy -0.2286 4.1656)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.2286 4.1656) (xy -0.5588 3.2004)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5588 3.2004) (xy -0.5334 3.937)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5334 3.937) (xy -0.6604 3.937)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.9398 3.6068) (xy -0.7112 3.7592)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -11.684) (xy 0.0 -10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -10.16) (xy -2.54 -8.636)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -8.636) (xy 0.0 -11.684)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -10.16) (xy -5.08 -10.16)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.016 -6.096) (xy -0.762 -8.128)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.6858 -7.0612) (xy 0.127 -6.5786)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.127 -6.5786) (xy 1.016 -6.096)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.016 -6.096) (xy 0.6858 -7.0612)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.6858 -7.0612) (xy 0.7112 -6.3246)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.7112 -6.3246) (xy 0.5842 -6.3246)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.3048 -6.6548) (xy 0.5334 -6.5024)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.2286 -5.9944) (xy -2.0066 -8.0264)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5588 -6.9596) (xy -1.1176 -6.477)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.1176 -6.477) (xy -0.2286 -5.9944)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.2286 -5.9944) (xy -0.5588 -6.9596)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5588 -6.9596) (xy -0.5334 -6.223)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.5334 -6.223) (xy -0.6604 -6.223)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.9398 -6.5532) (xy -0.7112 -6.4008)) (stroke (width 0.254))
+      )
+      (text "G" (at 1.778 11.684 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "R" (at 1.27 1.016 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (text "B" (at 1.27 -9.144 0)
+        (effects (font (size 1.27 1.27)) (justify bottom left))
+      )
+      (rectangle (start -2.54 -11.684) (end -2.54 11.684)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 5.08 10.16 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 10.16 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 -10.16 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -10.16 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

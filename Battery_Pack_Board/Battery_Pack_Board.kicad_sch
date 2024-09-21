@@ -1,0 +1,118 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a0364f94-5ed8-47e2-8798-821b42abcf30")
+	(paper "A4")
+	(title_block
+		(title "Battery Pack Board")
+		(date "2024-09-21")
+		(rev "1.0")
+		(company "WM")
+	)
+	(lib_symbols)
+	(text "DC/DC\nCONVERTERS"
+		(exclude_from_sim no)
+		(at 114.3 100.584 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "74d31171-da14-4d98-84c5-cc03285a0759")
+	)
+	(text "USB-C\nCONTROLLER"
+		(exclude_from_sim no)
+		(at 185.674 100.838 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(bold yes)
+			)
+		)
+		(uuid "a1acbef9-6672-4c25-83e5-a530b7d40a9c")
+	)
+	(sheet
+		(at 85.09 81.28)
+		(size 58.42 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 233 176 1.0000)
+		)
+		(uuid "0373783e-36ce-4f70-939b-b67c3ae1ec29")
+		(property "Sheetname" "Power"
+			(at 85.09 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 85.09 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Battery_Pack_Board"
+				(path "/a0364f94-5ed8-47e2-8798-821b42abcf30"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 81.28)
+		(size 58.42 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 233 176 1.0000)
+		)
+		(uuid "9cd260a8-af4b-4534-a7f8-2c3f330e1310")
+		(property "Sheetname" "USB-C Controller"
+			(at 156.21 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC_Controller.kicad_sch"
+			(at 156.21 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Battery_Pack_Board"
+				(path "/a0364f94-5ed8-47e2-8798-821b42abcf30"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

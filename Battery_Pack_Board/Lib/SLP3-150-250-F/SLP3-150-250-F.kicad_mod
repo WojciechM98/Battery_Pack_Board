@@ -1,0 +1,233 @@
+(footprint "SLP3-150-250-F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cb526c45-0dfd-42c7-9564-b19e803c22ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SLP3-150-250-F"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "85c9a503-1e91-484f-a0ba-d8fa71ef8e5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SLP3-150-250-F"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86795ecd-0178-4cef-a53d-40db83c4c3ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50a3f5ec-a429-4165-b0a6-e26f26fb072a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "892ab46a-3ac3-44c7-8da4-bc1142baaaf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.0146 -2.3606)
+		(end -1.678 -2.3606)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7e45f3a-dfc7-449f-91d5-42b79c9c52c7")
+	)
+	(fp_line
+		(start -1.678 -2.3606)
+		(end -1.678 2.3606)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "812db010-7f03-46b9-a8b6-76b459ea1968")
+	)
+	(fp_line
+		(start -1.678 2.3606)
+		(end -2.0146 2.3606)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e6e0de25-ef35-4d61-a7c2-89d0a22cc4d5")
+	)
+	(fp_rect
+		(start 1.678 2.3606)
+		(end 3.9354 -2.3606)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "606b00a8-5d84-46cf-9cc2-5c086976c741")
+	)
+	(fp_rect
+		(start -2.5146 -1.5)
+		(end -8.8646 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "8065eda4-a7ee-46d2-9d1f-b0d51fbeceb9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "686d503b-fb4e-467b-81e8-95765190c443")
+	)
+	(fp_rect
+		(start -2.7676 -2.52)
+		(end -1.5276 2.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a5955f04-037a-4f3d-bcb3-fa494d8119c6")
+	)
+	(fp_rect
+		(start 1.5224 -2.52)
+		(end 4.0924 2.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "86224e7b-4074-435b-8a1f-f5581bdee2ed")
+	)
+	(fp_line
+		(start -1.778 -2.2606)
+		(end 1.778 -2.2606)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1addf720-49ef-49f3-9b67-b65bed2f3a37")
+	)
+	(fp_line
+		(start -1.778 2.2606)
+		(end 1.778 2.2606)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8a51256-a2a5-416d-b863-d5cf48076a7c")
+	)
+	(fp_rect
+		(start -2.5146 -2.2606)
+		(end -1.778 2.2606)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6fd18962-fbe0-4252-8b7d-806ba08de439")
+	)
+	(fp_rect
+		(start 1.778 -2.2606)
+		(end 3.8354 2.2606)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "47ed7cfa-5a6b-42c5-9d37-bacecad1b89a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.6924 0 90)
+		(layer "F.Fab")
+		(uuid "4cbeb51d-f27b-4761-bb83-9d4132c7eab5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 2.6924 -1.27)
+		(size 1.1684 1.1684)
+		(drill 1.1684)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e72ef4d6-bd0a-41f3-9d0b-5e2422117cba")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.6924 1.27)
+		(size 1.1684 1.1684)
+		(drill 1.1684)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b345c65f-3287-473f-a237-f63cc5b770cd")
+	)
+	(model "${KIPRJMOD}/Lib/SLP3-150-250-F/SLP3-150-250-F.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
